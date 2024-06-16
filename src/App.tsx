@@ -1,19 +1,9 @@
 import './App.css';
-import '../src/GameList'
-import React from 'react';
+import React, {lazy} from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-interface Game {
-  title: string,
-  imgs?: string, 
-  horizontalcover?: string, 
-  verticalcover?: string, 
-  releasedate: Date, 
-  summary: string, 
-  platforms: string[], 
-  genres: string[], 
-  rating: string, 
-  contentrating: string
-}
+const Landing = lazy(() => import('./Pages/LandingPage/LandingPage')) 
+const GameClicked = lazy(() => import('./Pages/GameClickedPage/GameClicked')) 
 
 function App() {
 
@@ -25,13 +15,14 @@ function App() {
     .then((data)  => setGames(data))
   },[])
 
-  games.sort((a,b) => a.id - b.id)
-
   return (
     <div className="App">
-      {games.map((i)=>{
-        return <div>{i.title}</div>
-      })}
+      <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Landing/>} />
+            <Route path="/GameClicked" element={<GameClicked/>} />
+          </Routes>
+        </BrowserRouter>
     </div>
   );
 }
