@@ -1,10 +1,12 @@
 const express = require('express')
 const gameRoutes = require('./src/Games/routes')
+const cors = require('cors')
 
 const app = express();
-const port = 3000
+const port = 8000
 
 app.use(express.json())
+app.use(cors())
 
 app.get('/', (req,res) => {
     res.send('Hello World')

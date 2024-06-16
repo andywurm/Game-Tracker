@@ -23,3 +23,5 @@ const gamedata: GameData[] = [
         rating: "M"
     }
 ]
+
+export default gamedata;

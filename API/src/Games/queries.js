@@ -1,5 +1,3 @@
-const { deleteGameByID } = require("./controller");
-
 const getGames = 'SELECT * FROM games';
 const getGameByID = 'SELECT * FROM games WHERE ID=$1';
 const checkGameExists = 'SELECT g FROM games  g WHERE g.title=$1';
