@@ -42,7 +42,7 @@ const featuredGames: FeaturedGames[] = [
     },
     {
         titleIMG: "https://upload.wikimedia.org/wikipedia/commons/3/36/Super_Mario_Bros._Wonder_Logo.png",
-        mainIMG: "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000068688/87e8aa5f1fdc950b88eae7d7c62ed185c8a6373c845090bbdb2e2cf039b38da1",
+        mainIMG: "https://www.godisageek.com/wp-content/uploads/Super-Mario-Bros-Wonder-6.jpg",
         hook: "Join in on the Fun!",
         summary: "Super Mario Bros. Wonder features Princess Peach, Princess Daisy and Yoshi as playable characters in this new 2D, co-op platformer, in addition to familiar characters like Mario, Luigi and Toad.",
         gameName: "Mario Wonder",
