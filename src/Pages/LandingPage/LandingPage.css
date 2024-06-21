@@ -10,8 +10,28 @@
     height: 60vh;
 }
 
-.featuredContainer{
+.featuredContainer {
     height: 100%;
+    -webkit-animation: fadein 10s infinite normal ease-out;
+    animation: fadein 10s infinite normal ease-out;
+}
+
+@-webkit-keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
 }
 
 .fBackContainer {
@@ -47,7 +67,7 @@
     /* border: solid red 1px; */
 }
 
-.fGameInfo{
+.fGameInfo {
     position: absolute;
     line-height: 2.2;
     width: 40%;
@@ -59,14 +79,35 @@
     justify-content: center;
     margin-left: 10%;
     max-width: 500px;
+    -webkit-animation: moveup 10s infinite normal ease-out;
+    animation: moveup 10s infinite normal ease-out;
+    overflow-y: hidden;
 }
 
-.gameLogo{
+@-webkit-keyframes moveup {
+    0% {
+        top: 50px;
+    }
+    20% {
+        top: 0px;
+    }
+}
+
+@keyframes moveup {
+    0% {
+        top: 50px;
+    }
+    20% {
+        top: 0px;
+    }
+}
+
+.gameLogo {
     width: 50%;
     height: fit-content;
 }
 
-.titleIMG{
+.titleIMG {
     object-fit: contain;
     height: 100%;
     width: 100%;
@@ -74,21 +115,25 @@
     max-width: 500px;
 }
 
-.hook{
+.hook {
     font-size: 2em;
     text-shadow: 1px 1px black;
 }
 
-.summary{
+.summary {
     line-height: 1.5;
     text-shadow: 1px 1px black;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
-.readMore{
+.readMore {
     margin-top: 5%;
 }
 
-.readMoreBtn{
+.readMoreBtn {
     border: transparent;
     color: white;
     background-color: #396EF7;
@@ -98,7 +143,7 @@
     max-height: fit-content;
 }
 
-.readMoreBtn:hover{
+.readMoreBtn:hover {
     transform: scale(1.05);
     cursor: pointer;
 }

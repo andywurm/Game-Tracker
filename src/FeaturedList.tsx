@@ -25,7 +25,7 @@ const featuredGames: FeaturedGames[] = [
         gameID: 0,
     },
     {
-        titleIMG: "https://static.wikia.nocookie.net/logopedia/images/c/c2/TLOZ_Majoras_Mask.png/revision/latest/scale-to-width-down/1000?cb=20190508023327",
+        titleIMG: "https://preview.redd.it/ctxagd0z3w541.png?auto=webp&s=e41bee6dfb0598ba6215a347709d6a2f4370f130",
         mainIMG: "https://i.guim.co.uk/img/media/0199cf90c61afaf9536d98706d0c81425133f61b/0_1460_4863_2915/master/4863.jpg?width=1900&dpr=2&s=none",
         hook: "Can You Save Them?",
         summary: "In three days, the moon will fall and the land of Termina will meet with a terrible fate. Can you save it in time? Relive the world’s final 72 hours, solve elaborate puzzles, conquer dungeons, battle giant bosses, and befriend the doomed people of Termina in one of Nintendo’s most suspenseful apocalyptic adventures ever.",
