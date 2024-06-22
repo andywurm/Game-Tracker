@@ -39,7 +39,7 @@ const NavBar = () => {
 
     return (<div>
         <AppBar position="static" style={{backgroundColor: "black"}} >
-            <Container maxWidth="xl" sx={{minHeight:'30px'}}>
+            <Container maxWidth="xl">
                 <Toolbar disableGutters >
                     
                     <Typography
@@ -120,7 +120,8 @@ const NavBar = () => {
                             <Button
                                 key={page}
                                 onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
+                                className='pageOptions'
+                                sx={{ my: 1, mr: 1, color: 'white', display: 'block', textTransform: 'none'}}
                             >
                                 {page}
                             </Button>

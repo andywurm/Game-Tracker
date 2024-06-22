@@ -1,0 +1,75 @@
+[
+    {
+        "title": "Super Mario Bros. Wonder",
+        "imgs": null,
+        "horizontalcover": null,
+        "verticalcover": null,
+        "releasedate": "2023-10-20T04:00:00.000Z",
+        "summary": "Super Mario Bros. Wonder features Princess Peach, Princess Daisy and Yoshi as playable characters in this new 2D, co-op platformer, in addition to familiar characters like Mario, Luigi and Toad.",
+        "platforms": [
+            "Nintendo Switch"
+        ],
+        "genres": [
+            "Platformer"
+        ],
+        "rating": "E",
+        "contentrating": "Mild Fantasy Violence",
+        "othername": null
+    },
+    {
+        "title": "Omori",
+        "imgs": null,
+        "horizontalcover": null,
+        "verticalcover": null,
+        "releasedate": "2020-12-25T04:00:00.000Z",
+        "summary": "Explore a strange world full of colorful friends and foes. When the time comes, the path you’ve chosen will determine your fate... and perhaps the fate of others as well.",
+        "platforms": [
+            "PC",
+            "Nintendo Switch",
+            "PlayStation 4"
+        ],
+        "genres": [
+            "Platformer"
+        ],
+        "rating": "E",
+        "contentrating": "Mild Fantasy Violence",
+        "othername": null
+    },
+    {
+        "title": "The Legend of Zelda: Echoes of Wisdom",
+        "imgs": null,
+        "horizontalcover": null,
+        "verticalcover": null,
+        "releasedate": "2024-09-26",
+        "summary": "It’s up to Zelda and her wisdom to save the kingdom of Hyrule in a brand-new story in The Legend of Zelda series. The people of Hyrule are being stolen away by strange rifts that have appeared, with a certain swordsman among the missing. Team up with the mysterious fairy, Tri, and use the power of the Tri Rod to create echoes – imitations of things found in the environment",
+        "platforms": [
+            "Nintendo Switch"
+        ],
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "rating": "E",
+        "contentrating": "Mild Fantasy Violence",
+        "othername": "Echoes of Wisdom"
+},
+{
+        "title": "Mario & Luigi: Brothership",
+        "imgs": null,
+        "horizontalcover": null,
+        "verticalcover": null,
+        "releasedate": "2024-11-07",
+        "summary": "All aboard for an island-hopping RPG adventure starring Mario and Luigi! The brothers are back for a brand-new entry in the Mario & Luigi series, where they set sail on Shipshape Island (part ship, part island) to navigate the vast world of Concordia.",
+        "platforms": [
+            "Nintendo Switch"
+        ],
+        "genres": [
+            "Platformer",
+            "RPG",
+            "Adventure"
+        ],
+        "rating": "E",
+        "contentrating": "Mild Fantasy Violence",
+        "othername": null
+    }
+]
