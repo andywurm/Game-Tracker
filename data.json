@@ -29,10 +29,10 @@
             "PlayStation 4"
         ],
         "genres": [
-            "Platformer"
+            "RPG"
         ],
-        "rating": "E",
-        "contentrating": "Mild Fantasy Violence",
+        "rating": "M",
+        "contentrating": "Blood, Strong Language, Violence",
         "othername": null
     },
     {
@@ -70,6 +70,89 @@
         ],
         "rating": "E",
         "contentrating": "Mild Fantasy Violence",
+        "othername": null
+    },
+    {
+        "title": "Banjo and Kazooie",
+        "imgs": null,
+        "horizontalcover": null,
+        "verticalcover": null,
+        "releasedate": "1998-06-30",
+        "summary": "You are Banjo, a honey bear on the hunt for your kidnapped sister, Tooty in Rare''s colorful 3D platformer. By your side -- or actually on your back -- is your trusty friend, the breegull Kazooie.",
+        "platforms": [
+            "Nintendo 64",
+            "Xbox"
+        ],
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "rating": "E",
+        "contentrating": "Comic Mischief, Cartoon Violence, Mild Suggestive Themes",
+        "othername": null
+    },
+    {
+        "title": "The Legend of Zelda: Majora's Mask",
+        "imgs": null,
+        "horizontalcover": null,
+        "verticalcover": null,
+        "releasedate": "2000-05-27",
+        "summary": "In three days, the moon will fall and the land of Termina will meet with a terrible fate. Can you save it in time? Relive the world’s final 72 hours, solve elaborate puzzles, conquer dungeons, battle giant bosses, and befriend the doomed people of Termina in one of Nintendo’s most suspenseful apocalyptic adventures ever.",
+        "platforms": [
+            "Nintendo 64",
+            "3DS"
+        ],
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "rating": "E",
+        "contentrating": "Animated Violence, Cartoon Violence",
+        "othername": "Majora's Mask"
+    },
+    {
+        "title": "Kingdom Hearts II",
+        "imgs": null,
+        "horizontalcover": null,
+        "verticalcover": null,
+        "releasedate": "2005-10-05",
+        "summary": "A darkly-cloaked Mickey Mouse joins Donald, Goofy, and Sora as they continue their adventure into several popular Disney-inspired action/RPG worlds.",
+        "platforms": [
+            "PC",
+            "PlayStation 2",
+            "PlayStation 3",
+            "PlayStation 4",
+            "Nintendo Switch",
+            "Xbox"
+        ],
+        "genres": [
+            "RPG",
+            "Action",
+            "Adventure"
+        ],
+        "rating": "E 10+",
+        "contentrating": "Violence, Mild Blood, Use of Alcohol",
+        "othername": null
+    },
+    {
+        "title": "Undertale",
+        "imgs": null,
+        "horizontalcover": null,
+        "verticalcover": null,
+        "releasedate": "2015-09-15",
+        "summary": "UNDERTALE! The RPG game where you don''t have to destroy anyone.",
+        "platforms": [
+            "PC",
+            "Nintendo Switch",
+            "Xbox"
+        ],
+        "genres": [
+            "RPG",
+            "Action",
+            "Adventure"
+        ],
+        "rating": "E 10+",
+        "contentrating": "Mild Language, Fantasy Violence, Simulated Gambling, Mild Blood, Use of Tobacco",
         "othername": null
     }
 ]
