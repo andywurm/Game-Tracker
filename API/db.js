@@ -1,10 +1,10 @@
 const Pool = require('pg').Pool;
 
 const pool = new Pool({
-    user: 'andy',
-    host: 'dpg-cprhcc3qf0us738fdp30-a.oregon-postgres.render.com',
-    database: 'games_m8ie',
-    password: '36b8O0n9QpPuqys5jezBsaTNe9DI71vW',
+    user: process.env.REACT_APP_BASE_URL_USERNAME,
+    host: process.env.REACT_APP_BASE_URL_HOST,
+    database: process.env.REACT_APP_BASE_URL_DATABASE,
+    password: process.env.REACT_APP_BASE_URL_PASSWORD,
     port: 5432,
     ssl: true
 });
