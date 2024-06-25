@@ -1,6 +1,7 @@
 const { error } = require('console');
 const pool = require('../../db')
-const queries = require('./queries')
+const queries = require('./queries');
+const { parseArgs } = require('util');
 
 const getGames = (req, res) => {
     pool.query(queries.getGames, (error, results) => {
@@ -13,6 +14,14 @@ const getGameByID = (req, res) => {
     const id = parseInt(req.params.ID)
     pool.query(queries.getGameByID, [id], (error, results) => {
         if (error) throw error;
+        res.status(200).json(results.rows)
+    })
+}
+
+const getGameByTitle = (req,res) => {
+    const title = "%" + req.params.title + "%"
+    pool.query(queries.getGameByTitle, [title], (error, results) => {
+        if(error) throw error;
         res.status(200).json(results.rows)
     })
 }
@@ -79,6 +88,7 @@ const updateGameReleaseDate = (req, res) => {
 module.exports = {
     getGames,
     getGameByID,
+    getGameByTitle,
     addGame,
     addGames,
     deleteGame,
