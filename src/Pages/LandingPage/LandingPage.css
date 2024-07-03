@@ -84,6 +84,7 @@
     animation: moveup 10s infinite normal ease-out;
     animation-delay: 0;
     overflow-y: hidden;
+    padding: 1%;
 }
 
 @-webkit-keyframes moveup {
