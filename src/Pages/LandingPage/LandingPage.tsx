@@ -22,7 +22,7 @@ const LandingPage = () => {
 
         <div className='featuredContainer'>
 
-            <div className='fGameInfo'>
+           <div className='fGameInfo'>
                 <div className='gameLogo'>
                     <img src={featGames[currentSlide].titleIMG} className='titleIMG' />
                 </div>

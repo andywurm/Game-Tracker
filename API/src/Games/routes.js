@@ -10,5 +10,6 @@ router.get('/id/:ID', controller.getGameByID)
 router.put('/id/:ID', controller.updateGameReleaseDate)
 router.delete('/id/:ID', controller.deleteGame)
 router.get('/title/:title', controller.getGameByTitle)
+router.get('/getCompleted/:listID', controller.getCompletedList)
 
 module.exports = router;

@@ -26,6 +26,15 @@ const getGameByTitle = (req,res) => {
     })
 }
 
+const getCompletedList = (req, res) => {
+    const listId = req.params.listID
+    pool.query(queries.getCompletedList, [listId], (error, results) => {
+        if (error) throw error;
+        
+        res.status(200).json(results.rows)
+    })
+}
+
 const addGame = (req, res) => {
     const { title, imgs, horizontalcover, verticalcover, releasedate, summary, platforms, genres, rating, contentrating } = req.body
     pool.query(queries.checkGameExists, [title], (error, results) => {
@@ -89,6 +98,7 @@ module.exports = {
     getGames,
     getGameByID,
     getGameByTitle,
+    getCompletedList,
     addGame,
     addGames,
     deleteGame,

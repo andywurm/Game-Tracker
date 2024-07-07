@@ -25,3 +25,22 @@ ALTER TABLE ONLY public.games ALTER COLUMN id SET DEFAULT nextval('public.games_
 
 ALTER TABLE ONLY public.games
     ADD CONSTRAINT games_pkey PRIMARY KEY (id);
+
+CREATE TABLE users (
+    id serial primary key,
+    firstname character varying,
+    lastname character varying,
+    email character varying,
+    password character varying
+);
+
+CREATE TABLE lists (
+    id serial primary key,
+    userId serial references users(id),
+    listType character varying
+);
+
+CREATE TABLE games_list (
+    listId serial references lists(id),
+    gameId integer references games(id)
+);
