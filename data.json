@@ -2,8 +2,8 @@
     {
         "title": "Super Mario Bros. Wonder",
         "imgs": null,
-        "horizontalcover": null,
-        "verticalcover": null,
+        "horizontalcover": "https://withaterriblefate.com/wp-content/uploads/2018/05/22041427_kh.jpg",
+        "verticalcover": "https://assetsio.gnwcdn.com/co30zf.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp",
         "releasedate": "2023-10-20T04:00:00.000Z",
         "summary": "Super Mario Bros. Wonder features Princess Peach, Princess Daisy and Yoshi as playable characters in this new 2D, co-op platformer, in addition to familiar characters like Mario, Luigi and Toad.",
         "platforms": [
@@ -19,8 +19,8 @@
     {
         "title": "Omori",
         "imgs": null,
-        "horizontalcover": null,
-        "verticalcover": null,
+        "horizontalcover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1150690/capsule_616x353.jpg?t=1671584768",
+        "verticalcover": "https://en.wikipedia.org/wiki/File:Omori_cover.jpg",
         "releasedate": "2020-12-25T04:00:00.000Z",
         "summary": "Explore a strange world full of colorful friends and foes. When the time comes, the path you’ve chosen will determine your fate... and perhaps the fate of others as well.",
         "platforms": [
@@ -75,8 +75,8 @@
     {
         "title": "Banjo and Kazooie",
         "imgs": null,
-        "horizontalcover": null,
-        "verticalcover": null,
+        "horizontalcover": "https://images.nintendolife.com/19a1d6fd19370/banjo-kazooie.large.jpg",
+        "verticalcover": "https://howlongtobeat.com/games/250px-BanjoKazooieCover500px.jpg?width=760",
         "releasedate": "1998-06-30",
         "summary": "You are Banjo, a honey bear on the hunt for your kidnapped sister, Tooty in Rare''s colorful 3D platformer. By your side -- or actually on your back -- is your trusty friend, the breegull Kazooie.",
         "platforms": [
@@ -94,13 +94,14 @@
     {
         "title": "The Legend of Zelda: Majora's Mask",
         "imgs": null,
-        "horizontalcover": null,
-        "verticalcover": null,
+        "horizontalcover": "https://cdn.wccftech.com/wp-content/uploads/2021/10/The-Legend-of-Zelda-Majoras-Mask.jpg",
+        "verticalcover": "https://assetsio.reedpopcdn.com/co1ujb.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp",
         "releasedate": "2000-05-27",
         "summary": "In three days, the moon will fall and the land of Termina will meet with a terrible fate. Can you save it in time? Relive the world’s final 72 hours, solve elaborate puzzles, conquer dungeons, battle giant bosses, and befriend the doomed people of Termina in one of Nintendo’s most suspenseful apocalyptic adventures ever.",
         "platforms": [
             "Nintendo 64",
-            "3DS"
+            "Nintendo Switch",
+            "Nintendo 3DS"
         ],
         "genres": [
             "Action",
@@ -113,8 +114,8 @@
     {
         "title": "Kingdom Hearts II",
         "imgs": null,
-        "horizontalcover": null,
-        "verticalcover": null,
+        "horizontalcover": "https://withaterriblefate.com/wp-content/uploads/2018/05/22041427_kh.jpg",
+        "verticalcover": "https://assetsio.gnwcdn.com/co30zf.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp",
         "releasedate": "2005-10-05",
         "summary": "A darkly-cloaked Mickey Mouse joins Donald, Goofy, and Sora as they continue their adventure into several popular Disney-inspired action/RPG worlds.",
         "platforms": [
@@ -137,8 +138,8 @@
     {
         "title": "Undertale",
         "imgs": null,
-        "horizontalcover": null,
-        "verticalcover": null,
+        "horizontalcover": "https://f4.bcbits.com/img/a1767769692_10.jpg",
+        "verticalcover": "https://m.media-amazon.com/images/M/MV5BNzkwZDliNGEtMDNkNi00ODcxLWI1N2UtNDE1NmZlM2QyMTY4XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg",
         "releasedate": "2015-09-15",
         "summary": "UNDERTALE! The RPG game where you don''t have to destroy anyone.",
         "platforms": [

@@ -1,0 +1,49 @@
+.title{
+    font-size: 1.5em;
+}
+
+.carouselContainer{
+    width: 85%;
+    margin: 0 auto;
+}
+.caroContainer{
+    display: flex;
+    margin: 1.1% 0 4% 0;
+}
+.coverContainer{
+    border: solid rgb(83, 82, 82) 1px;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 250px;
+    height: 150px;
+    box-shadow: 4px 4px 2px #000000;
+}
+.coverContainer:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+    border: solid #396EF7 1px;
+    box-shadow: 0 0 1px 1px #396EF7;
+}
+.cover{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    height: 100%;
+}
+
+.gameTitle{
+    margin-top: 1%;
+    text-shadow: 1px 1px black;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.bookmark{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 5px;
+    color: rgb(255, 209, 44);
+    text-shadow: 2px 5px 5px #000000;
+    overflow-x: hidden;
+}

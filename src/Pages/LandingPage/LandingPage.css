@@ -17,6 +17,7 @@
     -webkit-animation: fadein 10s infinite normal ease-in-out;
     animation: fadein 10s infinite normal ease-in-out;
     animation-delay: -1ms;
+    margin-bottom: 5%;
 }
 
 @-webkit-keyframes fadein {
@@ -155,6 +156,10 @@
 .readMoreBtn:hover {
     transform: scale(1.05);
     cursor: pointer;
+}
+
+.gameCarouselContainer{
+    overflow-x: hidden;
 }
 
 @media only screen and (max-width: 700px) {

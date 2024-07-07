@@ -9,14 +9,6 @@ const GameClicked = lazy(() => import('./Pages/GameClickedPage/GameClicked'))
 
 function App() {
 
-  const [games, setGames] = React.useState<any[]>([])
-
-  React.useEffect(() => {
-    fetch('http://localhost:8000/api/v1/games/')
-      .then((res) => res.json())
-      .then((data) => setGames(data))
-  }, [])
-
   return (
     <div className="App">
       <BrowserRouter>
