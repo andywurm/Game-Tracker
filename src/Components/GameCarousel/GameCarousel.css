@@ -39,11 +39,17 @@
     -webkit-box-orient: vertical;
 }
 
+.oneLine{
+    border: solid transparent 1px;
+    display: flex;
+}
+
 .bookmark{
-    position: absolute;
-    margin-left: 220px;
-    margin-top: 5px;
-    color: rgb(255, 209, 44);
-    text-shadow: 2px 5px 5px #000000;
-    overflow-x: hidden;
+    margin-left: auto;
+    color: gray;
+}
+
+.bookmarkFilled{
+    margin-left: auto;
+    color: #396EF7;
 }

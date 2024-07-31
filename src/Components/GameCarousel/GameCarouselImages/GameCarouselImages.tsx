@@ -1,5 +1,7 @@
 import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
+import AddCircleIcon from '@mui/icons-material/AddCircle';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import '../GameCarousel.css'
 import { useState } from 'react';
 
@@ -14,13 +16,13 @@ const GameCarouselImages = (props: IPropsGameCarouselImages) => {
         <div>
             <div className='coverContainer'>
 
-    
-                    {/* <div className='bookmark' onClick={() => setFavorite(!favorite)}>
-                        {favorite ? <BookmarkIcon /> : <BookmarkBorderIcon/>}
-                        </div> */}
-                    <img src={props.game.horizontalcover} alt='' className='cover' />
-                
-                <div className='gameTitle'>{props.game.othername ? props.game.othername : props.game.title}</div>
+                <img src={props.game.horizontalcover} alt='' className='cover' />
+                <div className='oneLine'>
+                    <div className='gameTitle'>{props.game.othername ? props.game.othername : props.game.title}</div>
+                    {!favorite ?
+                        <AddCircleIcon className='bookmark' onClick={() => setFavorite(!favorite)} />
+                        : <CheckCircleIcon className='bookmarkFilled' onClick={() => setFavorite(!favorite)} />}
+                </div>
 
             </div>
         </div>
