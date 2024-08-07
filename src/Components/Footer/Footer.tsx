@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footerContainer'>
 
             <div className='footerBody'>
-                <div className='left'>Game Tracker &#169; Last Updated: July 2024</div>
+                <div className='left'>Game Tracker &#169; Last Updated: August 2024</div>
                 <div className='right'>
                     <FacebookIcon className='icon'/>
                     <TwitterIcon className='icon'/>

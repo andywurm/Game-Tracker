@@ -10,27 +10,27 @@ const LandingPage = () => {
     const [games, setGames] = React.useState<any[]>([])
 
     React.useEffect(() => {
-      fetch('http://localhost:8000/api/v1/games/')
-        .then((res) => res.json())
-        .then((data) => setGames(data))
+        fetch('http://localhost:8000/api/v1/games/')
+            .then((res) => res.json())
+            .then((data) => setGames(data))
     }, [])
 
     React.useEffect(() => {
         const timerId = setInterval(
             () =>
                 setCurrentSlide(() =>
-                    currentSlide === featGames.length-1 ? 0 : currentSlide + 1
+                    currentSlide === featGames.length - 1 ? 0 : currentSlide + 1
                 ),
             10000
         );
-        return () => clearInterval(timerId);  
+        return () => clearInterval(timerId);
     }, [currentSlide]);
 
     return <div className='landingPageContainer'>
 
         <div className='featuredContainer'>
 
-           <div className='fGameInfo'>
+            <div className='fGameInfo'>
                 <div className='gameLogo'>
                     <img src={featGames[currentSlide].titleIMG} className='titleIMG' />
                 </div>
@@ -51,8 +51,8 @@ const LandingPage = () => {
         </div>
 
         <div className='gameCarouselContainer'>
-            <GameCarousel list={games.filter((game) => game.platforms.includes("Nintendo Switch"))} title={'Games on Nintendo Switch'}/>
-            <GameCarousel list={games.filter((game) => game.genres.includes("Action"))} title={'Action Games'}/>
+            <GameCarousel list={games.filter((game) => game.platforms.includes("Nintendo Switch"))} title={'Games on Nintendo Switch'} />
+            <GameCarousel list={games.filter((game) => game.genres.includes("Action"))} title={'Action Games'} />
         </div>
 
     </div>

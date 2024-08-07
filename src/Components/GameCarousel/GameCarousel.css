@@ -1,37 +1,46 @@
-.title{
+.title {
     font-size: 1.5em;
+    margin-bottom: 1%;
 }
 
-.carouselContainer{
+.carouselContainer {
     width: 85%;
-    margin: 0 auto;
+    margin: 1% auto;
+    padding: 1% 0;
+    /* border: solid red 1px; */
 }
-.caroContainer{
+
+.caroContainer {
     display: flex;
     margin: 1.1% 0 4% 0;
 }
-.coverContainer{
-    border: solid rgb(83, 82, 82) 1px;
-    border-radius: 4px;
+
+.coverContainer {
     margin-right: 10px;
     width: 250px;
-    height: 150px;
-    box-shadow: 4px 4px 2px #000000;
+    height: fit-content;
+    /* border: solid red 1px; */
 }
-.coverContainer:hover{
+
+.cover:hover {
+    position: relative;
+     top: 2px;
     transform: scale(1.01);
     cursor: pointer;
     border: solid #396EF7 1px;
     box-shadow: 0 0 1px 1px #396EF7;
 }
-.cover{
-    width: 100%;
+
+.cover {
+    width: 250px;
     object-fit: cover;
     border-radius: 4px;
-    height: 100%;
+    height: 150px;
+    box-shadow: 4px 4px 2px #000000;
+    border: solid rgb(71, 71, 71) 1px;
 }
 
-.gameTitle{
+.gameTitle {
     margin-top: 1%;
     text-shadow: 1px 1px black;
     display: -webkit-box;
@@ -39,17 +48,17 @@
     -webkit-box-orient: vertical;
 }
 
-.oneLine{
+.oneLine {
     border: solid transparent 1px;
     display: flex;
 }
 
-.bookmark{
+.bookmark {
     margin-left: auto;
     color: gray;
 }
 
-.bookmarkFilled{
+.bookmarkFilled {
     margin-left: auto;
     color: #396EF7;
 }
