@@ -180,6 +180,7 @@
 
 .gameCarouselContainer{
     overflow-x: hidden;
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -270,6 +271,11 @@
         max-width: fit-content;
         max-height: fit-content;
     }
+    .gameCarouselContainer{
+        overflow-x: hidden;
+        border: solid red 1px;
+        margin-top: 25%;
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -343,4 +349,5 @@
         max-width: fit-content;
         max-height: fit-content;
     }
+
 }
