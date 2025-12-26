@@ -17,8 +17,8 @@ const featuredGames: FeaturedGames[] = [
         gameID: 1,
     },
     {
-        titleIMG: "https://www.khdatabase.com/images/thumb/c/cc/Kingdom_Hearts_II_logo_KHII.png/700px-Kingdom_Hearts_II_logo_KHII.png",
-        mainIMG: "https://www.kotaku.com.au/wp-content/uploads/2017/06/27/h6v57xjriwwcpbqmdkxo.jpg",
+        titleIMG: "https://kh.wiki.gallery/images/thumb/8/86/Kingdom_Hearts_II_Logo_KHII.png/1200px-Kingdom_Hearts_II_Logo_KHII.png",
+        mainIMG: "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/03/kingdom-hearts-2-box-cover.jpg",
         hook: "The Power of Friendship",
         summary: "A darkly-cloaked Mickey Mouse joins Donald, Goofy, and Sora as they continue their adventure into several popular Disney-inspired action/RPG worlds.",
         gameName: "Kingdom Hearts II",
